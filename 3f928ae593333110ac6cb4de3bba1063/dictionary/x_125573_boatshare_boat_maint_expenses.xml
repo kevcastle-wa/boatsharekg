@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7fb38e2993333110ac6cb4de3bba1098" label="boat_maint_expenses" max_length="40" name="x_125573_boatshare_boat_maint_expenses" type="collection">
+        <element label="maint_completed_date" max_length="40" name="maint_completed_date" type="glide_date"/>
+        <element label="maint_cost" max_length="20" name="maint_cost" type="currency"/>
+        <element label="maint_desc" max_length="40" name="maint_desc" type="string"/>
+        <element label="maint_payee" max_length="40" name="maint_payee" type="string"/>
+        <element label="maint_perform_person" max_length="32" name="maint_perform_person" reference="sys_user" type="reference"/>
+        <element label="maint_warranty" max_length="40" name="maint_warranty" type="string"/>
+        <element label="named_boat" max_length="32" name="named_boat" reference="x_125573_boatshare_boat_name" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="maint_perform_person"/>
+        </index>
+        <index name="index2">
+            <element name="named_boat"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

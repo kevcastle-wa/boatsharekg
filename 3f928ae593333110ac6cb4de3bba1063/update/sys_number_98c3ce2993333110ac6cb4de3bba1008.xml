@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_125573_boatshare_boat_maint_expenses">x_125573_boatshare_boat_maint_expenses</category>
+        <maximum_digits>10</maximum_digits>
+        <number>1000</number>
+        <prefix>BOATE</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 19:38:31</sys_created_on>
+        <sys_id>98c3ce2993333110ac6cb4de3bba1008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BOATE</sys_name>
+        <sys_package display_value="BoatShare" source="x_125573_boatshare">3f928ae593333110ac6cb4de3bba1063</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BoatShare">3f928ae593333110ac6cb4de3bba1063</sys_scope>
+        <sys_update_name>sys_number_98c3ce2993333110ac6cb4de3bba1008</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 19:38:31</sys_updated_on>
+    </sys_number>
+</record_update>

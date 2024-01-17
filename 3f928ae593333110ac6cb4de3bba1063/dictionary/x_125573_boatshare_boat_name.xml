@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1666c22d93333110ac6cb4de3bba1017" label="boat_name" max_length="40" name="x_125573_boatshare_boat_name" type="collection">
+        <element label="active" max_length="40" name="active" type="boolean"/>
+        <element label="boat_model_year" max_length="40" name="boat_model_year" type="integer"/>
+        <element label="boat_myear" max_length="40" name="boat_myear" type="glide_date"/>
+        <element label="name_boat" max_length="40" name="name_boat" type="string"/>
+    </element>
+</database>

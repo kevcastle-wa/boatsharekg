@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="12a70e6d93333110ac6cb4de3bba10f2" extends="task" label="boat_maint_tasks" max_length="40" name="x_125573_boatshare_boat_maint_tasks" type="collection">
+        <element label="boat_maint" max_length="32" name="boat_maint" reference="x_125573_boatshare_boat_maint_expenses" type="reference"/>
+        <element choice="1" default="planned" label="tstatus" max_length="40" name="tstatus" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="planned" sequence="0" value="planned"/>
+                <element inactive_on_update="false" label="started" sequence="1" value="started"/>
+                <element inactive_on_update="false" label="inprogress" sequence="2" value="inprogress"/>
+                <element inactive_on_update="false" label="halted" sequence="3" value="halted"/>
+                <element inactive_on_update="false" label="completed" sequence="4" value="completed"/>
+            </choice>
+        </element>
+    </element>
+</database>
